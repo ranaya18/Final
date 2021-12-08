@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   text-align: center;
-  background-color: grey;
+  background-color: #373737;
 }
 
 html {
@@ -154,10 +154,6 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 .topnav a.active {
  background-color: #b7b7af;
  color: white;
-}
-
-body {
-  background-color: #373737;
 }
 
 .glow {
