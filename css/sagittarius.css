@@ -134,6 +134,7 @@ body {
 
 .mySlides {
   display: none;
+  text-align: center;
 }
 
 /* Fading animation */
