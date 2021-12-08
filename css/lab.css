@@ -20,6 +20,10 @@ html {
   background-image: url("https://thumbs.gfycat.com/AnyFaithfulHylaeosaurus-mobile.mp4");
 }
 
+.header h1 {
+  font-size: 50px;
+}
+
 p{
   text-decoration: underline;
   text-decoration-color: white;
