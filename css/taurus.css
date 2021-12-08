@@ -2,7 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   text-align: center;
-  padding: 10px;
   background-color: #f1f1f1;
 }
 
@@ -81,12 +80,15 @@ body {
   background-image: url("https://thumbs.gfycat.com/AnyFaithfulHylaeosaurus-mobile.mp4");
 }
 
+/* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-  background: black;
-  color: white;
+  background: #ddd;
+  margin-top: 20px;
 }
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
