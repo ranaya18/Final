@@ -5,6 +5,10 @@ body {
   background-color: grey;
 }
 
+#content{
+  background-color: white;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -26,12 +30,14 @@ p{
 }
 
 h1 {
+  font-size:
   color: white;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 16px;
   color: white;
+  float: left;
 }
 
 h4 {
