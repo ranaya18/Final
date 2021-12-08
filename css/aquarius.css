@@ -137,9 +137,8 @@ body {
 }
 
 .mySlides {
-  text-align: center;
   display: none;
-  max-width: 100%;
+  text-align: center;
 }
 
 /* Fading animation */
