@@ -125,10 +125,17 @@ body {
   }
 }
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 .mySlides {
-  text-align: right;
+  text-align: center;
   display: none;
-  max-width: 890px;
+  max-width: 100%;
 }
 
 /* Fading animation */
