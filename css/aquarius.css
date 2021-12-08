@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+.content {
+
+}
+
 .header {
   background-color: black;
   text-align: center;
@@ -128,7 +132,7 @@ body {
 .mySlides {
   text-align: right;
   display: none;
-  max-width: 890px;
+  max-width: 950px;
 }
 
 /* Fading animation */
