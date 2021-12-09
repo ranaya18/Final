@@ -67,7 +67,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     // Toggles paragraphs display
     $(".scorpio-card").click(function(){
-        $("#scorpioinfo").toggle();
+        $("#scorpio-info").toggle();
     });
 });
 
