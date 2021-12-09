@@ -13,3 +13,53 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".aries-card").click(function(){
+        $("#aries-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".taurus-card").click(function(){
+        $("#taurus-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".gemini-card").click(function(){
+        $("#gemini-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".cancer-card").click(function(){
+        $("#cancer-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".leo-card").click(function(){
+        $("#leo-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".virgo-card").click(function(){
+        $("#virgo-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".libra-card").click(function(){
+        $("#libra-info").toggle();
+    });
+});
