@@ -63,3 +63,38 @@ $(document).ready(function(){
         $("#libra-info").toggle();
     });
 });
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".scorpio-card").click(function(){
+        $("#scorpioinfo").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".sagittarius-card").click(function(){
+        $("#sagittarius-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".capricorn-card").click(function(){
+        $("#capricorn-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".aquarius-card").click(function(){
+        $("#aquarius-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".pisces-card").click(function(){
+        $("#pisces-info").toggle();
+    });
+});
