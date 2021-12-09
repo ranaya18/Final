@@ -134,6 +134,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #gemini-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -151,6 +152,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #cancer-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -168,6 +170,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #leo-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -185,6 +188,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #virgo-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -202,6 +206,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #libra-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -219,6 +224,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #scorpio-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -236,6 +242,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #sagittarius-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -253,6 +260,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #capricorn-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -270,6 +278,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #aquarius-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -287,6 +296,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 #piscess-info {
   position: fixed;
+  background-color: white;
   width: 90%;
   left: 5%;
   top: 5%;
