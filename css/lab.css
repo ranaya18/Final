@@ -5,16 +5,10 @@ body {
   background-color: #373737;
 }
 
-#show {
-  display: block;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  margin: 0 auto;
-}
-
-#hide{
-  display: block;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  margin: 0 auto;
+button {
+  background-color: black;
+  color: white;
+  float: right;
 }
 
 html {
@@ -98,7 +92,6 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #aries-info {
   position: fixed;
   background-color: white;
-  padding: 20px;
   width: 90%;
   left: 5%;
   top: 5%;
@@ -453,11 +446,6 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-
-button {
-  background-color: black;
-  color: white;
 }
 
 * {box-sizing:border-box}
