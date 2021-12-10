@@ -98,3 +98,87 @@ $(document).ready(function(){
         $("#pisces-info").toggle();
     });
 });
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#aries-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#taurus-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#gemini-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#cancer-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#leo-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#virgo-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#libra-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#scorpio-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#sagittarius-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#capricorn-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#aquarius-info").toggle();
+    });
+});
+
+$(document).ready(function(){
+    // Toggles paragraphs display
+    $(".toggle-btn").click(function(){
+        $("#pisces-info").toggle();
+    });
+});
