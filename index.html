@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/lab.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="js/lab.js" defer></script>
     </head>
@@ -15,8 +16,6 @@
         <div class="topnav">
             <a class="active" href="index.html">Home</a>
             <a href="#news">Compatibility</a>
-            <a href="#contact">Horoscopes</a>
-            <a href="#about"></a>
           </div>
           <!-- Slideshow container -->
           <div class="slideshow-container">
@@ -107,35 +106,33 @@
         <h3 style="text-align:center">Choose Your Sign</h3>
         <div class="row">
           <div class="column">
-            <div class="card">
+            <div class="aries-card">
               <img src="img/aries1.png" alt="Jane" style="width:100%">
               <img class="aries">
-              <div class="container">
+              <div class="container" class="aries-card">
                 <h2>Aries</h2>
                 <p class="title">MAR 21 - APR 19</p>
-                <p><button><a href="aries.html"</a>Traits</button></p>
+
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="taurus-card">
               <img src="img/taurus1.png" alt="Mike" style="width:100%">
-              <div class="container">
+              <div class="container" class="taurus-card">
                 <h2>Taurus</h2>
                 <p class="title">APR 20 - MAY 20</p>
-                <p><button><a href="taurus.html"</a>Traits</button></p>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="gemini-card">
               <img src="img/gemini1.png" alt="John" style="width:100%">
-              <div class="container">
+              <div class="container" class="gemini-card">
                 <h2>Gemini</h2>
                 <p class="title">MAY 21 - JUN 20</p>
-                <p><button><a href="gemini.html"</a>Traits</button></p>
               </div>
           </div>
         </div>
@@ -143,34 +140,31 @@
         <h2 style="text-align:center">_</h2>
         <div class="row">
           <div class="column">
-            <div class="card">
+            <div class="cancer-card">
               <img src="img/cancer1.png" alt="Jane" style="width:100%">
-              <div class="container">
+              <div class="container" class="cancer-card">
                 <h2>Cancer</h2>
                 <p class="title">JUN 21 - JUL 22</p>
-                <p><button><a href="cancer.html"</a><Traits</button></p>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="leo-card">
               <img src="img/leo1.png" alt="Mike" style="width:100%">
-              <div class="container">
+              <div class="container" class="leo-card">
                 <h2>Leo</h2>
                 <p class="title">JUL 23 - AUG 22</p>
-                <p><button><a href="leo.html"</a>Traits</button></p>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="virgo-card">
               <img src="img/virgo1.png" alt="John" style="width:100%">
-              <div class="container">
+              <div class="container" class="virgo-card">
                 <h2>Virgo</h2>
                 <p class="title">AUG 23 - SEP 22</p>
-                <p><button><a href="virgo.html"</a>Traits</button></p>
               </div>
           </div>
         </div>
@@ -178,33 +172,30 @@
         <h2 style="text-align:center">_</h2>
         <div class="row">
           <div class="column">
-            <div class="card">
+            <div class="libra-card">
               <img src="img/libra1.png" alt="Jane" style="width:100%">
-              <div class="container">
+              <div class="container" class="libra-card">
                 <h2>Libra</h2>
                 <p class="title">SEP 23 - OCT 22</p>
-                <p><button><a href="libra.html"</a>Traits</button></p>
               </div>
             </div>
           </div>
           <div class="column">
-            <div class="card">
+            <div class="scorpio-card">
               <img src="img/scorpio1.png" alt="Mike" style="width:100%">
-              <div class="container">
+              <div class="container" class="scorpio-card">
                 <h2>Scorpio</h2>
                 <p class="title">OCT 23 - NOV 21</p>
-                <p><button><a href="scorpio.html"</a>Traits</button></p>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="sagittarius-card">
               <img src="img/sagittarius1.png" alt="John" style="width:100%">
-              <div class="container">
+              <div class="container" class="sagittarius-card">
                 <h2>Sagittarius</h2>
                 <p class="title">NOV 22 - DEC 21</p>
-                <p><button><a href="sagittarius.html"</a>Traits</button></p>
               </div>
           </div>
         </div>
@@ -212,37 +203,445 @@
         <h2 style="text-align:center">_</h2>
         <div class="row">
           <div class="column">
-            <div class="card">
+            <div class="capricorn-card">
               <img src="img/capricorn1.png" alt="Jane" style="width:100%">
-              <div class="container">
+              <div class="container" class="capricorn-card">
                 <h2>Capricorn</h2>
                 <p class="title">DEC 22 - JAN 19</p>
-                <p><button><a href="capricorn.html"</a>Traits</button></p>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="aquarius-card">
               <img src="img/aquarius1.png" alt="Mike" style="width:100%">
-              <div class="container">
+              <div class="container" class="aquarius-card">
                 <h2>Aquarius</h2>
                 <p class="title">JAN 20 - FEB 18</p>
-                <p><button><a href="aquarius.html"</a>Traits</button></p>
               </div>
             </div>
           </div>
 
           <div class="column">
-            <div class="card">
+            <div class="pisces-card">
               <img src="img/pisces1.png" alt="John" style="width:100%">
-              <div class="container">
+              <div class="container" class="pisces-card">
                 <h2>Pisces</h2>
                 <p class="title">Feb 19 - Mar 20</p>
-                <p><button><a href="pisces.html"</a>Traits</button></p>
           </div>
         </div>
       </div>
+
+      <div class"leftcolumn">
+        <div id="aries-info">
+          <button id= "button" class="toggle-aries-btn">X</button>
+          <h2>Aries</h2>
+          <h5>Sign</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="aries-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="aries-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="aries-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="aries-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+
+
+      <div class"leftcolumn">
+        <div id="taurus-info">
+          <button id= "button" class="toggle-taurus-btn">X</button>
+          <h2>Taurus</h2>
+          <h5>sign</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="taurus-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="taurus-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="taurus-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="taurus-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="gemini-info">
+          <button id= "button" class="toggle-gemini-btn">X</button>
+          <h2>Gemini</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="gemini-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="gemini-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="gemini-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="gemini-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="cancer-info">
+          <button id= "button" class="toggle-cancer-btn">X</button>
+          <h2>Cancer</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="cancer-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="cancer-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="cancer-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="cancer-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="leo-info">
+          <button id= "button" class="toggle-leo-btn">X</button>
+          <h2>Leo</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="leo-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="leo-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="leo-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="leo-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="virgo-info">
+          <button id= "button" class="toggle-virgo-btn">X</button>
+          <h2>Virgo</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="virgo-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="virgo-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="virgo-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="virgo-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="libra-info">
+          <button id= "button" class="toggle-libra-btn">X</button>
+          <h2>Libra</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="libra-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="libra-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="libra-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="libra-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="scorpio-info">
+          <button id= "button" class="toggle-scorpio-btn">X</button>
+          <h2>Scorpio</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="scorpio-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="scorpio-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="scorpio-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="scorpio-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="sagittarius-info">
+          <button id= "button" class="toggle-sagittarius-btn">X</button>
+          <h2>Sagittarius</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="sagittarius-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="sagittarius-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="sagittarius-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="sagittarius-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="capricorn-info">
+          <button id= "button" class="toggle-capricorn-btn">X</button>
+          <h2>Capricorn</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="capricorn-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="capricorn-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="capricorn-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="capricorn-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="aquarius-info">
+          <button id= "button" class="toggle-aquarius-btn">X</button>
+          <h2>Aquarius</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="aquarius-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="aquarius-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="aquarius-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="aquarius-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
+      <div class"leftcolumn">
+        <div id="pisces-info">
+          <button id= "button" class="toggle-pisces-btn">X</button>
+          <h2>Pisces</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div id="pisces-info1">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <div id="pisces-info2">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="pisces-info3">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div id="pisces-info4">
+          <h2>About me</h2>
+          <h5>Sign</h5>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+
       </main>
 
   <!---  <section class="container">

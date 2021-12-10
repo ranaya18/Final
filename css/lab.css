@@ -5,28 +5,10 @@ body {
   background-color: #373737;
 }
 
-a:link {
+button {
+  background-color: black;
   color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+  float: left;
 }
 
 html {
@@ -38,7 +20,6 @@ html {
 }
 
 .header {
-  background-color: black;
   text-align: center;
   padding: 1px;
   background-image: url("https://thumbs.gfycat.com/AnyFaithfulHylaeosaurus-mobile.mp4");
@@ -49,16 +30,17 @@ html {
 }
 
 p{
-  text-decoration: underline;
-  text-decoration-color: white;
+
 }
 
 h2 {
-  color: Black;
+  color: black;
+  font-size: 31px;
 }
 
-h2 style{
-  color:grey;
+h5 {
+  color: black;
+  text-align: center;
 }
 
 h1 {
@@ -89,10 +71,808 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
 }
 
-.card {
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.aries-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   background-color: white;
+}
+
+#aries-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aries-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aries-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aries-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aries-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.taurus-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#taurus-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.gemini-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#gemini-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.cancer-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#cancer-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.leo-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#leo-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.virgo-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#virgo-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.libra-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#libra-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.scorpio-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#scorpio-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.sagittarius-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#sagittarius-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.capricorn-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#capricorn-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.aquarius-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#aquarius-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.pisces-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+#pisces-info {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
 }
 
 .about-section {
@@ -242,11 +1022,6 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-
-button {
-  background-color: black;
-  color: white;
 }
 
 * {box-sizing:border-box}
