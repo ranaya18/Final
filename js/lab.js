@@ -19,6 +19,10 @@ $(document).ready(function(){
     // Toggles paragraphs display
     $(".aries-card").click(function(){
         $("#aries-info").toggle();
+        $("#aries-info1").toggle();
+        $("#aries-info2").toggle();
+        $("#aries-info3").toggle();
+        $("#aries-info4").toggle();
     });
 });
 
@@ -103,6 +107,10 @@ $(document).ready(function(){
     // Toggles paragraphs display
     $(".toggle-aries-btn").click(function(){
         $("#aries-info").toggle();
+        $("#aries-info1").toggle();
+        $("#aries-info2").toggle();
+        $("#aries-info3").toggle();
+        $("#aries-info4").toggle();
     });
 });
 
