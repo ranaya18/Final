@@ -159,10 +159,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #taurus-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#taurus-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -177,10 +225,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #gemini-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#gemini-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -195,10 +291,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #cancer-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#cancer-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -213,10 +357,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #leo-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#leo-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -231,10 +423,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #virgo-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#virgo-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -249,10 +489,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #libra-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#libra-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -267,10 +555,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #scorpio-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#scorpio-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -285,10 +621,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #sagittarius-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#sagittarius-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -303,10 +687,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #capricorn-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#capricorn-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -321,10 +753,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #aquarius-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#aquarius-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -339,10 +819,58 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 #pisces-info {
   position: fixed;
   background-color: white;
-  width: 90%;
-  left: 5%;
-  top: 5%;
-  height: 90%;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info1 {
+  position: fixed;
+  background-color: white;
+  float: left;
+  width: 70%;
+  left: 2%;
+  top: 60%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info2 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 2%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info3 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 31%;
+  display: none;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+#pisces-info4 {
+  position: fixed;
+  background-color: white;
+  float: right;
+  width: 26%;
+  left: 73%;
+  top: 60%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
