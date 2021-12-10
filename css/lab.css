@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   text-align: center;
-  background-color: black;
+  background-color: #373737;
 }
 
 button {
@@ -21,7 +21,6 @@ html {
 
 .header {
   text-align: center;
-  background-color: black;
   padding: 1px;
   background-image: url("https://thumbs.gfycat.com/AnyFaithfulHylaeosaurus-mobile.mp4");
 }
@@ -944,7 +943,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 .topnav {
  background-color: #333;
  overflow: hidden;
- background-color: black;
+ background-color: #373737;
 }
 
 /* Style the links inside the navigation bar */
