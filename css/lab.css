@@ -20,8 +20,8 @@ html {
 }
 
 .header {
-  text-align: center;
   background-color: black;
+  text-align: center;
   padding: 1px;
   background-image: url("https://thumbs.gfycat.com/AnyFaithfulHylaeosaurus-mobile.mp4");
 }
@@ -987,7 +987,102 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   }
 }
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -997,6 +1092,67 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  bottom: 0;
+  margin: auto;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
 }
 
 /* Add Animation */
