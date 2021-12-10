@@ -1,6 +1,3 @@
-
-
-
 $(document).ready(function(){
     // Toggles paragraphs display
     $(".aries-card").click(function(){
