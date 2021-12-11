@@ -35,20 +35,16 @@ padding: 13px;
 text-align: center;
 }
 
-br {
-  text-decoration: bold;
-  position: absolute;
-  padding: 10px;
-}
-
 h2 {
   color: black;
-  font-size: 31px;
+  font-size: 25px;
+  text-align: center;
 }
 
 h5 {
   color: black;
   text-align: center;
+  font-size: 15px;
 }
 
 h1 {
@@ -62,11 +58,7 @@ h3 {
 
 h4 {
   color: black;
-  font-size: 50px;
-}
-
-h5 {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h6 {
@@ -110,7 +102,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
-  height: 64%;
+  height: 60%;
   left: 2%;
   top: 2%;
   display: none;
@@ -123,9 +115,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
-  height: 30%;
+  height: 34%;
   left: 2%;
-  top: 67%;
+  top: 63%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -136,7 +128,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
-  height: 64%;
+  height: 60%;
   left: 73%;
   top: 2%;
   display: none;
@@ -149,10 +141,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
-  height: 30%;
+  height: 34%;
   top: 65%;
   left: 73%;
-  top: 67%;
+  top: 63%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -169,7 +161,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
-  height: 64%;
+  height: 60%;
   left: 2%;
   top: 2%;
   display: none;
@@ -182,9 +174,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
-  height: 30%;
+  height: 34%;
   left: 2%;
-  top: 67%;
+  top: 63%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -195,7 +187,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
-  height: 64%;
+  height: 60%;
   left: 73%;
   top: 2%;
   display: none;
@@ -208,10 +200,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
-  height: 30%;
+  height: 34%;
   top: 65%;
   left: 73%;
-  top: 67%;
+  top: 63%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;

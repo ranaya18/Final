@@ -33,7 +33,6 @@ $(document).ready(function(){
         $("#taurus-info1").toggle();
         $("#taurus-info2").toggle();
         $("#taurus-info3").toggle();
-        $("#taurus-info4").toggle();
     });
 });
 
@@ -165,7 +164,6 @@ $(document).ready(function(){
         $("#taurus-info1").toggle();
         $("#taurus-info2").toggle();
         $("#taurus-info3").toggle();
-        $("#taurus-info4").toggle();
     });
 });
 
