@@ -31,7 +31,14 @@ html {
 }
 
 p{
+padding: 13px;
+text-align: center;
+}
 
+br {
+  text-decoration: bold;
+  position: absolute;
+  padding: 10px;
 }
 
 h2 {
@@ -49,13 +56,21 @@ h1 {
 }
 
 h3 {
-  font-size: 25px;
-  color: white;
+  font-size: 15px;
+  color: black;
 }
 
 h4 {
   color: black;
   font-size: 50px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
 }
 
 img{
@@ -95,6 +110,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -107,8 +123,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -119,6 +136,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -131,20 +149,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#aries-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -161,6 +169,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -173,8 +182,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 70%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -185,6 +195,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -197,20 +208,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#taurus-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -227,6 +228,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -239,8 +241,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -251,6 +254,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -263,20 +267,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#gemini-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -293,6 +287,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -305,8 +300,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -317,6 +313,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -329,20 +326,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#cancer-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -359,6 +346,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -371,8 +359,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -383,6 +372,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -395,20 +385,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#leo-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -425,6 +405,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -437,8 +418,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -449,6 +431,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -461,20 +444,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#virgo-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -491,6 +464,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -503,8 +477,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -515,6 +490,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -527,20 +503,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#libra-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -557,6 +523,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -569,8 +536,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -581,6 +549,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -593,20 +562,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#scorpio-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -623,6 +582,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -635,8 +595,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -647,6 +608,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -659,20 +621,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#sagittarius-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -689,6 +641,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -701,8 +654,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -713,6 +667,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -725,20 +680,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#capricorn-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -755,6 +700,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -767,8 +713,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -779,6 +726,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -791,20 +739,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#aquarius-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -821,6 +759,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 64%;
   left: 2%;
   top: 2%;
   display: none;
@@ -833,8 +772,9 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: left;
   width: 70%;
+  height: 30%;
   left: 2%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
@@ -845,6 +785,7 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 64%;
   left: 73%;
   top: 2%;
   display: none;
@@ -857,20 +798,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
   background-color: white;
   float: right;
   width: 26%;
+  height: 30%;
+  top: 65%;
   left: 73%;
-  top: 31%;
-  display: none;
-  border: solid 2px black;
-  border-radius: 10px;
-}
-
-#pisces-info4 {
-  position: fixed;
-  background-color: white;
-  float: right;
-  width: 26%;
-  left: 73%;
-  top: 60%;
+  top: 67%;
   display: none;
   border: solid 2px black;
   border-radius: 10px;
