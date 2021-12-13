@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   text-align: center;
   background-color: #373737;
@@ -23,11 +22,15 @@ html {
   background-color: black;
   text-align: center;
   padding: 1px;
-  background-image: url("https://thumbs.gfycat.com/AnyFaithfulHylaeosaurus-mobile.mp4");
 }
 
 .header h1 {
-  font-size: 50px;
+
+  font-size: 70px;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p{
@@ -48,6 +51,8 @@ h5 {
 }
 
 h1 {
+  padding: 30px;
+  font-size: 30px;
   color: white;
 }
 
@@ -64,6 +69,10 @@ h4 {
 
 h6 {
   font-size: 13px;
+}
+
+h7 {
+  font-size: 50px;
 }
 
 img{
@@ -1101,10 +1110,10 @@ background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 }
 
 .video-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1000%;
   height: 100%;
   object-fit: cover;
   z-index: -2;
