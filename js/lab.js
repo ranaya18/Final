@@ -18,10 +18,10 @@ $(document).ready(function(){
     $(".aries-card").click(function(){
       $("#aries-info").fadeIn();
       $("#aries-info").fadeIn("slow");
-      $("#aries-info").fadeIn(3000);
+
       $("#aries-info1").fadeIn();
       $("#aries-info1").fadeIn("slow");
-      $("#aries-info1").fadeIn(3000);
+
         $("#aries-info").toggle();
         $("#aries-info1").toggle();
         $("#aries-info2").toggle();
