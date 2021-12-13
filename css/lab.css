@@ -63,7 +63,7 @@ h3 {
 
 h4 {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -71,9 +71,6 @@ h6 {
   font-size: 13px;
 }
 
-h7 {
-  font-size: 50px;
-}
 
 img{
 background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
